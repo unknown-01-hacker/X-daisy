@@ -375,15 +375,9 @@ def DaisyX_about_callback(update, context):
                         InlineKeyboardButton(
                             text="𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲", callback_data="aboutmanu_howto"
                         ),
-                        InlineKeyboardButton(
-                            text="𝗠𝗲", callback_data="aboutmanu_tac"
-                        ),
+                        InlineKeyboardButton(text="𝗠𝗲", callback_data="aboutmanu_tac"),
                     ],
-                    [
-                        InlineKeyboardButton(
-                            text="𝗛𝗲𝗹𝗽", callback_data="help_back"
-                        )
-                    ],
+                    [InlineKeyboardButton(text="𝗛𝗲𝗹𝗽", callback_data="help_back")],
                     [InlineKeyboardButton(text="𝗕𝗮𝗰𝗸", callback_data="aboutmanu_back")],
                 ]
             ),
