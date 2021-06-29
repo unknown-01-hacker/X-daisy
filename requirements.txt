@@ -51,3 +51,8 @@ pySmartDL
 validators
 bing_image_downloader
 google-api-python-client
+
+glitch_this
+NumPy
+opencv-python-headless
+Pillow
